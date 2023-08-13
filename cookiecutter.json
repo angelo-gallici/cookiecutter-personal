@@ -1,12 +1,13 @@
 {
-    "project_title": "Cookiecutter personal",
-    "project_slug": "cookiecutter_personal",
-    "project_description": "Something cool",
-    "enhorabuena": "Lo has echo increíble\n Ahora puedes crear plantillas\n totalmente personalizadas.\n Disfruta todo lo creado!",
-    "project_author_name": "Your name",
+    "project_name": "Cookiecutter Personal",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_author_name": "Your name (or your organization/company/team)",
+    "project_author_email": "Yout email (or your organization/company/team)",
+    "project_description": "A short description of the project.",
     "project_packages": [
-        "All",
-        "Minimal"
+    "All",
+    "Minimal"
     ],
-    "python_version": "3.7"
+    "python_version": "3.7",
+    "project_version": "0.1.0"
 }
